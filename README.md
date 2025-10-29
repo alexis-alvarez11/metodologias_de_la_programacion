@@ -1,2 +1,5 @@
 # metodologias_de_la_programacion
-Este repo tiene archivos de la materia
+
+## Este repositorio tiene archivos de la materia
+
+por Alexis
