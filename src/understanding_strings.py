@@ -51,3 +51,40 @@ print(full_name)
 print("Hola, " + full_name.title() + "!")
 
 
+#Syntax error con strings
+message= "Una fortaleza de Python es su comunidad"
+print(message)
+
+message= "Una fortaleza de 'Python' es su comunidad"
+print(message)
+
+
+#Concatenacion con f-strings
+famous_person= "Alexis Alvarez"
+quote= "Python is love"
+
+#Concatenacion convencional
+message= famous_person +" una vez dijo "+ quote
+print(message)
+
+#Concatenacion con f-strings
+message_f_strings= f"{famous_person} una vez dijo {quote}"
+print(message_f_strings)
+
+#Actividad
+
+"""
+1) Personaje famoso igualalo a variable string
+2) Elige una frase famosa que haya dicho e igualalo a string
+3) Genera un mensaje con las dos avariables utilizando f-string
+4) Imprime el mensaje
+"""
+
+famous= "Oppen Heimer"
+famous_phrase= "me he convertido en la muerte, el destructor de mundos"
+
+message_heimer= f"{famous} una vez dijo, {famous_phrase}"
+print(message_heimer)
+
+
+
