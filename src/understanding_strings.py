@@ -87,4 +87,28 @@ message_heimer= f"{famous} una vez dijo, {famous_phrase}"
 print(message_heimer)
 
 
+#Whitespaces
+
+"""
+Whitespace se refiere a cualquier caracter que no se imprime, 
+es decir, un tabulador y fines de linea. Los whitespaces se utilizan comunmente 
+para organizar las salidas (prints)
+de tal manera que sea mas amigable de leer o ver para los usuarios.
+"""
+
+#Ejemplos
+print("Pyhon")
+print("\tPython") #Tabulador
+print("\t\tPython") #Tabulador
+
+#Ejemplo de salto de linea
+print("Languages: \n Python \n C \n Javascript")
+
+#Eliminacion de espacios en blanco
+programming_languages= " Python "
+print(programming_languages)
+print(programming_languages.lstrip())
+print(programming_languages.rstrip())
+print(programming_languages.strip())
+
 
