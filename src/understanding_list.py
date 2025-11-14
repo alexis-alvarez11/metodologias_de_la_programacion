@@ -107,3 +107,44 @@ print(names)
 deleted_name= input("\n Ingrese el nombre que desea eliminar de la lista: ")
 names.remove(deleted_name.strip().lower())
 print(names)
+
+
+"""
+ordenar listas
+
+Metodo de las listas: sort()
+Ordenamiento permanente, es decir, ordena la lista permanente.
+
+"""
+cars= ["bmw", "audi", "ford", "kia"]
+print(cars)
+cars.sort()
+print(cars) # salida: ['audi', 'bmw', 'ford', 'kia']
+# con: reverse= True (ordena de Z a A, con False de A a Z, pero no es necesario)
+
+"""
+Metodo reverse 
+"""
+motorcycles= ['mortalika', 'honda', 'ducati']
+print(motorcycles)
+motorcycles.reverse()
+print(motorcycles)
+
+"""
+cantidad de elementos en una lista
+metodo built-in: len()
+"""
+cars= ['ford', 'kia', 'chevrolet']
+print("\n Metodo len() \n")
+print(len(cars)) # salida: 3
+
+"""
+Metodo built-in:
+ sorted()
+  Ordena una lista temporalmente
+"""
+favorite_students= ["jorge", "jose", "carlos", "emiliano"]
+print(favorite_students)
+
+print("lista ordenada temporalmente: ", sorted(favorite_students, reverse= True)) # salida: ['carlos', 'emiliano', 'jorge', 'jose']
+print("lista original: ", favorite_students) # salida: ['jorge', 'jose', 'carlos', 'emiliano']
