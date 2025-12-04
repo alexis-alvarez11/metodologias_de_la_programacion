@@ -2,4 +2,6 @@
 
 ## Este repositorio tiene archivos de la materia
 
-por Alexis
+## Por Alexis Eduardo Alvarez Rios
+
+### Matricula: 2530141
